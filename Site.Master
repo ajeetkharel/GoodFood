@@ -5,9 +5,9 @@
 <html>
 <head runat="server">
     <title></title>
-    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/favicon.ico" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -15,7 +15,7 @@
     <form id="form1" runat="server">
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="Index.aspx">
                 <img src="imgs/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 Good Food
               </a>
@@ -31,10 +31,10 @@
                     <a class="nav-link" href="CustomerDetails.aspx">Customers</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="RestaurantrDetails.aspx">Restaurants</a>
+                    <a class="nav-link" href="RestaurantDetails.aspx">Restaurants</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="LoyalityPointsDetails.aspx">Loyality Points</a>
+                    <a class="nav-link" href="LoyaltyPointsDetails.aspx">Loyalty Points</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="DeliveryAddressDetails.aspx">Delivery Addresses</a>

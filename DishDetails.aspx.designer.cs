@@ -11,7 +11,7 @@ namespace GoodFoodSystem
 {
 
 
-    public partial class WebForm3
+    public partial class DishDetails
     {
 
         /// <summary>
