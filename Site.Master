@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GoodFoodSystem.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#">
+                <img src="imgs/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Good Food
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="DishDetails.aspx">Dishes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="CustomerDetails.aspx">Customers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="RestaurantrDetails.aspx">Restaurants</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="LoyalityPointsDetails.aspx">Loyality Points</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="DeliveryAddressDetails.aspx">Delivery Addresses</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+        </div>
+        <div class="container-fluid">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+    <script src="Scripts/popper.min.js"></script>
+    <script src="Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script>
+        $(".nav .nav-link").on("click", function () {
+            $(".nav").find(".active").removeClass("active");
+            $(this).addClass("active");
+        });
+    </script>
+</body>
+</html>
