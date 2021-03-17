@@ -8,8 +8,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="~/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style>
+        .navbar {
+            -webkit-box-shadow: 0 8px 6px -6px #999;
+            -moz-box-shadow: 0 8px 6px -6px #999;
+            box-shadow: 0 5px 4px -6px #999;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -43,7 +52,7 @@
               </div>
             </nav>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid p-0">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>

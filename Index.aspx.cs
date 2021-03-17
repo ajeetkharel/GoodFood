@@ -11,7 +11,13 @@ namespace GoodFoodSystem
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Console.WriteLine("Searching for dish");
 
+        }
+
+        protected void searchDish(object sender, EventArgs e)
+        {
+            Response.Redirect("~/SearchDish.aspx?search=" + something.Value.ToString());
         }
     }
 }

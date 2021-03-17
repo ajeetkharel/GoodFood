@@ -24,12 +24,48 @@ namespace GoodFoodSystem
         protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// CustomerDetailsDataSource control.
+        /// customerName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource CustomerDetailsDataSource;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText customerName;
+
+        /// <summary>
+        /// customerContact control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl customerContact;
+
+        /// <summary>
+        /// customerEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl customerEmail;
+
+        /// <summary>
+        /// customerAddress control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText customerAddress;
+
+        /// <summary>
+        /// totalPoints control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl totalPoints;
     }
 }

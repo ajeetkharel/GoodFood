@@ -78,6 +78,9 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="imgs\logo.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -107,6 +110,13 @@
     <Content Include="RestaurantDetails.aspx" />
     <Content Include="LoyaltyPointsDetails.aspx" />
     <Content Include="DeliveryAddressDetails.aspx" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="SearchDish.aspx" />
+    <Content Include="OrderActivity.aspx" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />
@@ -236,6 +246,20 @@
     </Compile>
     <Compile Include="DeliveryAddressDetails.aspx.designer.cs">
       <DependentUpon>DeliveryAddressDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDish.aspx.cs">
+      <DependentUpon>SearchDish.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchDish.aspx.designer.cs">
+      <DependentUpon>SearchDish.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderActivity.aspx.cs">
+      <DependentUpon>OrderActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderActivity.aspx.designer.cs">
+      <DependentUpon>OrderActivity.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
